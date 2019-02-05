@@ -16,6 +16,9 @@ if __name__=='__main__':
 
     
 def nearestPower(a,b):
+    if(a or b<0):
+        str="invalid input"
+       return str
     t1=a
     t2=0
     temp=a
